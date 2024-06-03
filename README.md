@@ -40,7 +40,10 @@ npm init @eslint/config
 [x] Setup Express
 
 ```js
-npm i Express
+npm i express
+```
+
+```js
 npm i -D @types/express
 ```
 
@@ -48,5 +51,18 @@ npm i -D @types/express
 
 ```js
 npm i dotenv
+```
+
+```js
 npm i -D @types/dotenv
+```
+
+[x] Setup mongoose
+
+```js
+npm i mongoose
+```
+
+```js
+npm i -D @types/mongoose
 ```
