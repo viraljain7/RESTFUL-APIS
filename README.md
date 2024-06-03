@@ -27,3 +27,26 @@ npx tsc --init
 ```js
 npm init @eslint/config
 ```
+
+[x] setup prettier formatting
+[x] create .prettierrc.json file
+
+```js
+{
+    "tabWidth":2
+}
+```
+
+[x] Setup Express
+
+```js
+npm i Express
+npm i -D @types/express
+```
+
+[x] Setup dotenv
+
+```js
+npm i dotenv
+npm i -D @types/dotenv
+```
