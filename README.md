@@ -66,3 +66,13 @@ npm i mongoose
 ```js
 npm i -D @types/mongoose
 ```
+
+[x] Setup Error Handler
+
+```js
+npm i http-errors
+```
+
+```js
+npm i -D @types/http-errors
+```
