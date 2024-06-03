@@ -50,7 +50,7 @@ const createUser = async (req: Request, res: Response, next: NextFunction) => {
       expiresIn: "7d",
     });
     // response
-    res.json({
+    res.status(201).json({
       id: newUser._id,
       accesToken: token,
     });
@@ -59,4 +59,7 @@ const createUser = async (req: Request, res: Response, next: NextFunction) => {
   }
 };
 
-export { createUser };
+const loginUser = async (req: Request, res: Response, next: NextFunction) => {
+  res.json({ message: "OK" });
+};
+export { createUser, loginUser };
